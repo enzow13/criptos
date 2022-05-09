@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+    <title>Get Your Cripto</title>
+</head>
+<body>
+    <h1>Get your criptocoin</h1>
+    <div id="div-exchange_box">
+        <div class="div-box">
+            <select class="select-moedas" name="Moedas-IRL" id="select-moedas_irl">
+                <option value="brl">BRL</option>
+                <option value="usd">USD</option>
+                <option value="eur">EUR</option>
+                <option value="mxn">MXN</option>
+                <option value="jpy">JPY</option>
+                <option value="cny">CNY</option>
+                <option value="cad">CAD</option>
+            </select>
+            <input class="input-boxes" id="input-money_irl" type="number" min="1" value="1" placeholder="1 - 99999">
+        </div>
+        <span style="font-size: 100px;">=</span>
+        <div class="div-box">
+            <select class="select-moedas" name="Moedas-cripto" id="select-moedas_cripto">
+                <option value="bitcoin">BTC</option>
+                <option value="ethereum">ETH</option>
+                <option value="bnb">BNB</option>
+                <option value="xrp">XRP</option>
+                <option value="solana">SOL</option>
+                <option value="litecoin">LTC</option>
+                <option value="dogecoin">DOGE</option>
+            </select>
+            <input class="input-boxes" id="input-criptocoin" type="text" min="0" placeholder="1 - 99999">
+        </div>
+    </div>
+    <div id="a-div_coin">
+        <button onclick="CriptoCurrencyLink()" id="a-coin_graphic">Ver gráfico</button>
+    </div>
+</body>
+</html>

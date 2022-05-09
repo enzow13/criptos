@@ -1,0 +1,68 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    padding: 50px;
+    font-weight: 700;
+    font-size: 4.5rem;
+    text-align: center;
+}
+
+#div-exchange_box {
+    padding: 30px;
+    background-color: rgb(245, 245, 245);
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.div-box {
+    padding: 30px 10px 30px 10px;
+    gap: 1.2rem;
+    display: flex;
+    align-items: center;
+}
+
+.select-moedas {
+    padding: 12px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+}
+
+/* Div Moedas */
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.input-boxes {
+    font-size: 30px;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    outline: none;  
+}
+
+#a-div_coin {
+    text-align: center;
+    padding: 35px;
+}
+
+#a-coin_graphic {
+    border: none;
+    background-color: transparent;
+    font-size: 1.3rem;
+    text-decoration: none;
+    padding: 10px;
+    color: #0000EE;
+    cursor: pointer;
+}
