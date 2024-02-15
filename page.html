@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script src="index.js"></script>
     <title>Get Your Cripto</title>
 </head>
 <body>
@@ -21,7 +20,7 @@
                 <option value="cny">CNY</option>
                 <option value="cad">CAD</option>
             </select>
-            <input class="input-boxes" id="input-money_irl" type="number" min="1" value="1" placeholder="1 - 99999">
+            <input class="input-boxes" id="input-money_irl" oninput="onInputValue()" type="number" min="1" value="1" placeholder="1 - 99999">
         </div>
         <span style="font-size: 100px;">=</span>
         <div class="div-box">
@@ -41,4 +40,5 @@
         <button onclick="CriptoCurrencyLink()" id="a-coin_graphic">Ver gráfico</button>
     </div>
 </body>
+<script src="index.js"></script>
 </html>
